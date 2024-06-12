@@ -10,7 +10,6 @@ ssh keys
 - `cat ~/.ssh/id_ed25519.pub`
 - `git config --global user.email "EMAIL"`
 
-.
 
 ## brave
 ```
@@ -21,7 +20,6 @@ sudo apt update
 sudo apt install brave-browser
 ```
 
-.
 
 ## obsidian
 
@@ -30,7 +28,6 @@ sudo apt install brave-browser
 - https://github.com/Britnell/obsidian-synced-vault
 
 
-.
 ## vscode
 - https://code.visualstudio.com/docs/setup/linux
 - `sudo snap install --classic code`
@@ -46,6 +43,7 @@ node -v
 npm -v 
 ```
 
+
 # tar
 
 create
@@ -53,4 +51,5 @@ create
 
 extract 
 `tar -xvf archive.tar`
+
 
