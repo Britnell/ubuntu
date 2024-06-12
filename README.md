@@ -2,10 +2,13 @@
 i want to automate stuff, sync stuff, for my linux setup
 
 
-## git ssh keys
+## git 
+
+ssh keys
 - (`sudo apt install git`)
-- `ssh-keygen -t ed25519 -C "email@abc.de"
+- `ssh-keygen -t ed25519 -C "EMAIL"`
 - `cat ~/.ssh/id_ed25519.pub`
+- `git config --global user.email "EMAIL"`
 
 .
 
@@ -42,4 +45,12 @@ nvm install 20
 node -v 
 npm -v 
 ```
+
+# tar
+
+create
+`tar -cvf archive.tar directory/`
+
+extract 
+`tar -xvf archive.tar`
 
